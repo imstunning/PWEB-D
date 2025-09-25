@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/quiz1$", "dest": "/index.html" },
+    { "src": "/quiz1/profile$", "dest": "/profile.html" },
+    { "src": "/quiz1/hometown$", "dest": "/hometown.html" },
+    { "src": "/quiz1/food$", "dest": "/food.html" },
+    { "src": "/quiz1/tourist$", "dest": "/tourist.html" }
+  ]
+}
