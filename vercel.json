@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "quiz1/*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/quiz1$", "dest": "/quiz1/index.html" },
+    { "src": "/quiz1/profile$", "dest": "/quiz1/profile.html" },
+    { "src": "/quiz1/hometown$", "dest": "/quiz1/hometown.html" },
+    { "src": "/quiz1/food$", "dest": "/quiz1/food.html" },
+    { "src": "/quiz1/tourist$", "dest": "/quiz1/tourist.html" }
+  ]
+}
